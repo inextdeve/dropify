@@ -18,7 +18,7 @@ if (header) {
                 </div>
             </div>
 
-            <div class="item" style="background-image: url(img src="https://i.ibb.co/fVXntc1j/h1-slide-01.webp);">
+            <div class="item" style="background-image: url(https://i.ibb.co/fVXntc1j/h1-slide-01.webp);">
                 
                 <div class="content">
                     <div class="title">SLIDER 2</div>
@@ -32,7 +32,7 @@ if (header) {
 
             </div>
 
-            <div class="item" style="background-image: url(https://i.ibb.co/xSjzQ56r/black-soap.png);">
+            <div class="item" style="background-image: url(https://i.ibb.co/WWvLpgcj/transparent-bg-black-soap.png);">
 
                 <div class="content">
                     <div class="title">SLIDER 3</div>
