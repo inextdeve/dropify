@@ -6,7 +6,7 @@ if (header) {
   carousel.innerHTML = `
         <div class="list">
 
-            <div class="item" style="background-image: url(https://i.ibb.co/ymyQD2Vs/1.jpg);">
+            <div class="item" style="background-image: url(https://i.ibb.co/Jjb5HPcZ/h1-slide-02-1.webp);">
                 <div class="content">
                     <div class="title">SLIDER</div>
                     <div class="name">EAGLE</div>
@@ -17,49 +17,6 @@ if (header) {
                     </div>
                 </div>
             </div>
-
-            <div class="item" style="background-image: url(https://i.ibb.co/3yMB2H4g/2.jpg);">
-                
-                <div class="content">
-                    <div class="title">SLIDER</div>
-                    <div class="name">OWL</div>
-                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Subscribe</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="item" style="background-image: url(https://i.ibb.co/zVMmpnMc/3.jpg);">
-
-                <div class="content">
-                    <div class="title">SLIDER</div>
-                    <div class="name">CROW</div>
-                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Subscribe</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="item" style="background-image: url(https://i.ibb.co/6cFCSqZh/slide1.jpg);">
-                
-                <div class="content">
-                    <div class="title">SLIDER</div>
-                    <div class="name">BUTTERFLY</div>
-                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Subscribe</button>
-                    </div>
-                </div>
-
-            </div>
-
         </div>
 
         <!--next prev button-->
