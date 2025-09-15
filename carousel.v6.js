@@ -8,7 +8,7 @@ if (header) {
 
             <div class="item" style="background-image: url(https://i.ibb.co/Jjb5HPcZ/h1-slide-02-1.webp);">
                 <div class="content">
-                    <div class="title">SLIDER</div>
+                    <div class="title">SLIDER 1</div>
                     <div class="name">EAGLE</div>
                     <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
                     <div class="btn">
@@ -18,10 +18,10 @@ if (header) {
                 </div>
             </div>
 
-            <div class="item" style="background-image: url(https://i.ibb.co/Jjb5HPcZ/h1-slide-02-1.webp);">
+            <div class="item" style="background-image: url(img src="https://i.ibb.co/fVXntc1j/h1-slide-01.webp);">
                 
                 <div class="content">
-                    <div class="title">SLIDER</div>
+                    <div class="title">SLIDER 2</div>
                     <div class="name">OWL</div>
                     <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
                     <div class="btn">
@@ -32,10 +32,10 @@ if (header) {
 
             </div>
 
-            <div class="item" style="background-image: url(https://i.ibb.co/Jjb5HPcZ/h1-slide-02-1.webp);">
+            <div class="item" style="background-image: url(https://i.ibb.co/xSjzQ56r/black-soap.png);">
 
                 <div class="content">
-                    <div class="title">SLIDER</div>
+                    <div class="title">SLIDER 3</div>
                     <div class="name">CROW</div>
                     <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
                     <div class="btn">
@@ -49,7 +49,7 @@ if (header) {
             <div class="item" style="background-image: url(https://i.ibb.co/Jjb5HPcZ/h1-slide-02-1.webp);">
                 
                 <div class="content">
-                    <div class="title">SLIDER</div>
+                    <div class="title">SLIDER 4</div>
                     <div class="name">BUTTERFLY</div>
                     <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
                     <div class="btn">
@@ -74,8 +74,8 @@ if (header) {
     list = document.querySelector(".list"),
     item = document.querySelectorAll(".item");
 
-  let timeRunning = 3000;
-  let timeAutoNext = 7000;
+  let timeRunning = 20000;
+  let timeAutoNext = 70000;
 
   nextBtn.onclick = function () {
     showSlider("next");
