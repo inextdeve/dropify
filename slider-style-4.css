@@ -10,7 +10,8 @@ header {
 
 .carousel {
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
+  margin-top: -50px;
   overflow: hidden;
   position: relative;
 }

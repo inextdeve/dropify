@@ -1,0 +1,121 @@
+const header = document.querySelector(".header-wrapper");
+if (header) {
+  const carousel = document.createElement("div");
+  carousel.classList.add("carousel");
+  header.append(carousel);
+  carousel.innerHTML = `
+        <div class="list">
+
+            <div class="item" style="background-image: url(https://i.ibb.co/ymyQD2Vs/1.jpg);">
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">EAGLE</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(https://i.ibb.co/3yMB2H4g/2.jpg);">
+                
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">OWL</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item" style="background-image: url(https://i.ibb.co/zVMmpnMc/3.jpg);">
+
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">CROW</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item" style="background-image: url(https://i.ibb.co/6cFCSqZh/slide1.jpg);">
+                
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">BUTTERFLY</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--next prev button-->
+        <div class="arrows">
+            <button class="prev"><</button>
+            <button class="next">></button>
+        </div>
+  `;
+
+  var nextBtn = document.querySelector(".next"),
+    prevBtn = document.querySelector(".prev"),
+    list = document.querySelector(".list"),
+    item = document.querySelectorAll(".item");
+
+  let timeRunning = 3000;
+  let timeAutoNext = 7000;
+
+  nextBtn.onclick = function () {
+    showSlider("next");
+  };
+
+  prevBtn.onclick = function () {
+    showSlider("prev");
+  };
+
+  let runTimeOut;
+
+  let runNextAuto = setTimeout(() => {
+    nextBtn.click();
+  }, timeAutoNext);
+
+  function showSlider(type) {
+    let sliderItemsDom = list.querySelectorAll(".carousel .list .item");
+    if (type === "next") {
+      list.appendChild(sliderItemsDom[0]);
+      carousel.classList.add("next");
+    } else {
+      list.prepend(sliderItemsDom[sliderItemsDom.length - 1]);
+      carousel.classList.add("prev");
+    }
+
+    clearTimeout(runTimeOut);
+
+    runTimeOut = setTimeout(() => {
+      carousel.classList.remove("next");
+      carousel.classList.remove("prev");
+    }, timeRunning);
+
+    clearTimeout(runNextAuto);
+    runNextAuto = setTimeout(() => {
+      nextBtn.click();
+    }, timeAutoNext);
+
+    resetTimeAnimation(); // Reset the running time animation
+  }
+
+  // Start the initial animation
+  resetTimeAnimation();
+}
