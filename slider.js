@@ -1,111 +1,231 @@
 const header = document.querySelector(".header-wrapper");
 if (header) {
-  const slider = document.createElement("div");
-  slider.classList.add("slider");
-  header.append(slider);
-  slider.innerHTML = `<div class="list">
+  const carousel = document.createElement("div");
+  carousel.classList.add("carousel");
+  header.append(carousel);
+  carousel.innerHTML = `
+        <div class="list">
 
-            <div class="item">
-                <img src="https://raw.githubusercontent.com/Mohammed-Faysal/Image-slider-using-HTML-CSS-JavaScript/refs/heads/main/image/img1.jpg" >
-
+            <div class="item" style="background-image: url(image/eagel1.jpg);">
                 <div class="content">
-                    <div class="title">MAGIC SLIDER</div>
-                    <div class="type">FLOWER</div>
-                    <div class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut.
-                    </div>
-                    <div class="button">
-                        <button>SEE MORE</button>
+                    <div class="title">SLIDER</div>
+                    <div class="name">EAGLE</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
                     </div>
                 </div>
             </div>
 
-            <div class="item">
-                <img src="https://i.ibb.co/Y7XLbrSJ/2150533284.jpg" alt="">
-
+            <div class="item" style="background-image: url(image/owl1.jpg);">
+                
                 <div class="content">
-                    <div class="title">MAGIC SLIDER</div>
-                    <div class="type">NATURE</div>
-                    <div class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut.
-                    </div>
-                    <div class="button">
-                        <button>SEE MORE</button>
+                    <div class="title">SLIDER</div>
+                    <div class="name">OWL</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
                     </div>
                 </div>
+
             </div>
 
-            <div class="item">
-                <img src="https://i.ibb.co/Y7XLbrSJ/2150533284.jpg" alt="">
+            <div class="item" style="background-image: url(image/crow.jpg);">
 
                 <div class="content">
-                    <div class="title">MAGIC SLIDER</div>
-                    <div class="type">PLANT</div>
-                    <div class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut.
-                    </div>
-                    <div class="button">
-                        <button>SEE MORE</button>
+                    <div class="title">SLIDER</div>
+                    <div class="name">CROW</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
                     </div>
                 </div>
+
             </div>
 
-            <div class="item">
-                <img src="https://i.ibb.co/Y7XLbrSJ/2150533284.jpg" alt="">
-
+            <div class="item" style="background-image: url(image/butterfly1.jpeg);">
+                
                 <div class="content">
-                    <div class="title">MAGIC SLIDER</div>
-                    <div class="type">NATURE</div>
-                    <div class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut.
-                    </div>
-                    <div class="button">
-                        <button>SEE MORE</button>
+                    <div class="title">SLIDER</div>
+                    <div class="name">BUTTERFLY</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
                     </div>
                 </div>
+
             </div>
+
+            <div class="item" style="background-image: url(image/owl2.jpg);">
+                
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">OWL</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item" style="background-image: url(image/eagel3.jpg);">
+                
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">EAGLE</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item" style="background-image: url(image/kingfirser2.jpeg);">
+                
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">KINGFISHER</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item" style="background-image: url(image/parrot2.jpg);">
+                
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">PARROT</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item" style="background-image: url(image/heron.jpeg);">
+                
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">HERON</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item" style="background-image: url(image/butterfly2.jpg);">
+                
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">BUTTERFLY</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item" style="background-image: url(image/parrot2.jpg);">
+                
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">PARROT</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-        <div class="thumbnail">
-            <div class="item">
-                <img src="https://i.ibb.co/Y7XLbrSJ/2150533284.jpg">
-            </div>
-            <div class="item">
-                <img src="./image/img2.jpg"></div><div class="item"><img src="./image/img4.jpg"></div><div class="item"><img src="./image/img3.jpg"></div></div><div class="nextPrevArrows"><button class="prev"> < </button><button class="next"> > </button></div>
-`;
-  let nextBtn = document.querySelector(".next");
-  let prevBtn = document.querySelector(".prev");
-  let sliderList = slider.querySelector(".slider .list");
-  let thumbnail = document.querySelector(".slider .thumbnail");
-  let thumbnailItems = thumbnail.querySelectorAll(".item");
-  thumbnail.appendChild(thumbnailItems[0]);
+
+        <!--next prev button-->
+        <div class="arrows">
+            <button class="prev"><</button>
+            <button class="next">></button>
+        </div>
+
+
+        <!-- time running -->
+        <div class="timeRunning"></div>
+  `;
+
+  var nextBtn = document.querySelector(".next"),
+    prevBtn = document.querySelector(".prev"),
+    list = document.querySelector(".list"),
+    item = document.querySelectorAll(".item"),
+    runningTime = document.querySelector(".carousel .timeRunning");
+
+  let timeRunning = 3000;
+  let timeAutoNext = 7000;
+
   nextBtn.onclick = function () {
-    moveSlider("next");
+    showSlider("next");
   };
+
   prevBtn.onclick = function () {
-    moveSlider("prev");
+    showSlider("prev");
   };
-  function moveSlider(direction) {
-    let sliderItems = sliderList.querySelectorAll(".item");
-    let thumbnailItems = document.querySelectorAll(".thumbnail .item");
-    if (direction === "next") {
-      sliderList.appendChild(sliderItems[0]);
-      thumbnail.appendChild(thumbnailItems[0]);
-      slider.classList.add("next");
-    } else {
-      sliderList.prepend(sliderItems[sliderItems.length - 1]);
-      thumbnail.prepend(thumbnailItems[thumbnailItems.length - 1]);
-      slider.classList.add("prev");
-    }
-    slider.addEventListener(
-      "animationend",
-      function () {
-        if (direction === "next") {
-          slider.classList.remove("next");
-        } else {
-          slider.classList.remove("prev");
-        }
-      },
-      { once: !0 }
-    );
+
+  let runTimeOut;
+
+  let runNextAuto = setTimeout(() => {
+    nextBtn.click();
+  }, timeAutoNext);
+
+  function resetTimeAnimation() {
+    runningTime.style.animation = "none";
+    runningTime.offsetHeight; /* trigger reflow */
+    runningTime.style.animation = null;
+    runningTime.style.animation = "runningTime 7s linear 1 forwards";
   }
+
+  function showSlider(type) {
+    let sliderItemsDom = list.querySelectorAll(".carousel .list .item");
+    if (type === "next") {
+      list.appendChild(sliderItemsDom[0]);
+      carousel.classList.add("next");
+    } else {
+      list.prepend(sliderItemsDom[sliderItemsDom.length - 1]);
+      carousel.classList.add("prev");
+    }
+
+    clearTimeout(runTimeOut);
+
+    runTimeOut = setTimeout(() => {
+      carousel.classList.remove("next");
+      carousel.classList.remove("prev");
+    }, timeRunning);
+
+    clearTimeout(runNextAuto);
+    runNextAuto = setTimeout(() => {
+      nextBtn.click();
+    }, timeAutoNext);
+
+    resetTimeAnimation(); // Reset the running time animation
+  }
+
+  // Start the initial animation
+  resetTimeAnimation();
 }
