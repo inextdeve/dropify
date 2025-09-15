@@ -13,13 +13,13 @@ header {
 }
 
 header .header-wrapper .header__link {
-  background: none;
-  color: #fff;
-  font-size: 1.05rem;
+  background: none !important;
+  color: #fff !important;
+  font-size: 1.05rem !important;
 }
 
 header .header-wrapper .header__link:hover {
-  color: var(--ecosoap-theme-color);
+  color: var(--ecosoap-theme-color) !important;
 }
 
 .center-nav .nav-item > a:before {
@@ -30,7 +30,7 @@ header .header-wrapper .header__link:hover {
   fill: white;
 }
 .navbar ul.navbar-nav li .nav-link {
-  color: white;
+  color: white !important;
 }
 
 /* carousel */
