@@ -6,7 +6,7 @@ if (header) {
   carousel.innerHTML = `
         <div class="list">
 
-            <div class="item" style="background-image: url(image/eagel1.jpg);">
+            <div class="item" style="background-image: url(https://i.ibb.co/ymyQD2Vs/1.jpg);">
                 <div class="content">
                     <div class="title">SLIDER</div>
                     <div class="name">EAGLE</div>
@@ -18,7 +18,7 @@ if (header) {
                 </div>
             </div>
 
-            <div class="item" style="background-image: url(image/owl1.jpg);">
+            <div class="item" style="background-image: url(https://i.ibb.co/3yMB2H4g/2.jpg);">
                 
                 <div class="content">
                     <div class="title">SLIDER</div>
@@ -32,7 +32,7 @@ if (header) {
 
             </div>
 
-            <div class="item" style="background-image: url(image/crow.jpg);">
+            <div class="item" style="background-image: url(https://i.ibb.co/zVMmpnMc/3.jpg);">
 
                 <div class="content">
                     <div class="title">SLIDER</div>
@@ -46,7 +46,7 @@ if (header) {
 
             </div>
 
-            <div class="item" style="background-image: url(image/butterfly1.jpeg);">
+            <div class="item" style="background-image: url(https://i.ibb.co/6cFCSqZh/slide1.jpg);">
                 
                 <div class="content">
                     <div class="title">SLIDER</div>
