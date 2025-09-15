@@ -31,7 +31,9 @@ header {
   background-position: center; /* Center the image */
   background-size: auto;
 }
-
+.carousel .list .item:nth-child(1) {
+  background: none;
+}
 .carousel .list .item:nth-child(1),
 .carousel .list .item:nth-child(2) {
   top: 0;
