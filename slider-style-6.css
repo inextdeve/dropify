@@ -2,15 +2,16 @@ header {
   background: none !important;
 }
 .header-wrapper {
-  min-height: 80vh;
-  background-color: #31503c;
+  background-image: url(https://i.ibb.co/VYvh1mcr/h1-bg-slide.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* carousel */
 
 .carousel {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
   position: relative;
 }
@@ -23,7 +24,7 @@ header {
   transform: translateY(-70%);
   left: 70%;
   border-radius: 20px;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3); */
   z-index: 100;
   transition: 1s;
   background-repeat: no-repeat; /* Prevent tiling */
