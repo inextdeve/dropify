@@ -1,11 +1,38 @@
+body {
+  --ecosoap-theme-color: #ef5958;
+}
 header {
   background: none !important;
+  border-bottom: 1px solid #ffffff1a;
 }
+
 .header-wrapper {
   background-image: url(https://i.ibb.co/VYvh1mcr/h1-bg-slide.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+header .header-wrapper .header__link {
+  background: none;
+  color: #fff;
+  font-size: 1.05rem;
+}
+
+header .header-wrapper .header__link:hover {
+  color: var(--ecosoap-theme-color);
+}
+
+.center-nav .nav-item > a:before {
+  background: var(--ecosoap-theme-color);
+}
+
+.navbar ul.navbar-nav li svg {
+  fill: white;
+}
+.navbar ul.navbar-nav li .nav-link {
+  color: white;
+}
+cart-total-price
 
 /* carousel */
 
@@ -32,7 +59,7 @@ header {
   background-size: auto;
 }
 .carousel .list .item:nth-child(1) {
-  background: none;
+  background: none !important;
 }
 .carousel .list .item:nth-child(1),
 .carousel .list .item:nth-child(2) {
