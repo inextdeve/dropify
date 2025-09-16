@@ -54,8 +54,9 @@ header .header__link:hover {
   content: "";
   display: block;
   position: absolute;
-  top: -100%;
+  top: -100px;
   left: 0;
+  z-index: -1;
   width: 100%;
   height: 100px;
   background-color: var(--ecosoap-green-color);
@@ -73,16 +74,45 @@ header .header__link:hover {
 }
 
 .newsletter__wrap .newsletter_button:hover {
-  color: var(--ecosoap-theme-color);
-  background-color: white;
+  color: var(--ecosoap-theme-color) !important;
+  background-color: white !important;
+  border-color: white !important;
 }
+
+footer {
+  background-color: var(--ecosoap-green-color) !important;
+  color: white !important;
+  border-bottom: 1px solid #ffffff1a;
+}
+
+footer .fw-link ul li a {
+  color: #aaa !important;
+  font-size: 15px;
+}
+footer .fw-link ul li a {
+  color: var(--ecosoap-theme-color) !important;
+}
+footer .footer-text p {
+  color: #aaa !important;
+}
+
+.copyright-wrap {
+  background-color: var(--ecosoap-green-color) !important;
+  color: white !important;
+}
+
+#added-elem {
+  display: none !important;
+}
+
+/* CAROUSEL */
 
 .carousel {
   background-image: url(https://i.ibb.co/VYvh1mcr/h1-bg-slide.webp);
   background-size: cover;
   background-repeat: no-repeat;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
   margin-top: -80px;
 }
 .center-nav .nav-item > a:before {
