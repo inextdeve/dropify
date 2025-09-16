@@ -1,4 +1,4 @@
-const header = document.querySelector(".header-wrapper");
+const header = document.querySelector("#carouselExampleCaptions");
 if (header) {
   const carousel = document.createElement("div");
   carousel.classList.add("carousel");
