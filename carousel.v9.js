@@ -1,7 +1,8 @@
 const header = document.querySelector("#carouselExampleCaptions");
 if (header) {
   const carousel = document.createElement("div");
-  carousel.classList.add("carousel");
+  carousel.classList.add("my-own-carousel");
+  header.innerHTML = "";
   header.append(carousel);
   carousel.innerHTML = `
         <div class="list">
@@ -92,7 +93,7 @@ if (header) {
   }, timeAutoNext);
 
   function showSlider(type) {
-    let sliderItemsDom = list.querySelectorAll(".carousel .list .item");
+    let sliderItemsDom = list.querySelectorAll(".my-own-carousel .list .item");
     if (type === "next") {
       list.appendChild(sliderItemsDom[0]);
       carousel.classList.add("next");
