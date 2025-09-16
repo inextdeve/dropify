@@ -79,7 +79,7 @@ header .header__link:hover {
   border-color: white !important;
 }
 
-footer {
+footer .footer-top {
   background-color: var(--ecosoap-green-color) !important;
   color: white !important;
   border-bottom: 1px solid #ffffff1a;
@@ -89,7 +89,7 @@ footer .fw-link ul li a {
   color: #aaa !important;
   font-size: 15px;
 }
-footer .fw-link ul li a {
+footer .fw-link ul li a:hover {
   color: var(--ecosoap-theme-color) !important;
 }
 footer .footer-text p {
