@@ -79,7 +79,7 @@ header .header__link:hover {
   border-color: white !important;
 }
 
-footer .footer-top {
+.footer-top {
   background-color: var(--ecosoap-green-color) !important;
   color: white !important;
   border-bottom: 1px solid #ffffff1a;
