@@ -47,7 +47,7 @@ header .header__link:hover {
 
 .my-own-carousel{
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   min-height: 750px;
   overflow: hidden;
   position: relative;
