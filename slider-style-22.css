@@ -101,6 +101,11 @@ footer .footer-text p {
   color: white !important;
 }
 
+.copyright-wrap .copyright-text {
+  background: none !important;
+  color: white !important;
+}
+
 #added-elem {
   display: none !important;
 }
