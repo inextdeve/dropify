@@ -12,10 +12,6 @@ if (header) {
                     <div class="title">SLIDER 1</div>
                     <div class="name">EAGLE</div>
                     <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Subscribe</button>
-                    </div>
                 </div>
             </div>
 
@@ -25,10 +21,6 @@ if (header) {
                     <div class="title">SLIDER 2</div>
                     <div class="name">OWL</div>
                     <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Subscribe</button>
-                    </div>
                 </div>
 
             </div>
@@ -39,10 +31,6 @@ if (header) {
                     <div class="title">SLIDER 3</div>
                     <div class="name">CROW</div>
                     <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Subscribe</button>
-                    </div>
                 </div>
 
             </div>
@@ -53,10 +41,6 @@ if (header) {
                     <div class="title">SLIDER 4</div>
                     <div class="name">BUTTERFLY</div>
                     <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Subscribe</button>
-                    </div>
                 </div>
 
             </div>

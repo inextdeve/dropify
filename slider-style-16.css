@@ -9,11 +9,11 @@ header.sticky-menu {
   background: #31503cde !important;
 }
 
-.header-wrapper {
+/* .header-wrapper {
   background-image: url(https://i.ibb.co/VYvh1mcr/h1-bg-slide.webp);
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 header .header__link {
   background: none !important;
@@ -24,7 +24,13 @@ header .header__link {
 header .header__link:hover {
   color: var(--ecosoap-theme-color) !important;
 }
+main {margin-top: -80px;}
 
+.carousel {
+    background-image: url(https://i.ibb.co/VYvh1mcr/h1-bg-slide.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .center-nav .nav-item > a:before {
   background: var(--ecosoap-theme-color);
 }
@@ -41,6 +47,7 @@ header .header__link:hover {
 .my-own-carousel{
   width: 100vw;
   height: 80vh;
+  min-height: 750px;
   overflow: hidden;
   position: relative;
 }
@@ -275,6 +282,11 @@ header .header__link:hover {
   }
   .list .item .content {
     top: 40%;
+  }
+
+  .my-own-carousel .list .item {
+    width: 0;
+    height: 0;
   }
 
   .content .title,
