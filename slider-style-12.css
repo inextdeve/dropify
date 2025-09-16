@@ -32,7 +32,7 @@ header .header__link:hover {
 .navbar ul.navbar-nav li svg {
   fill: white;
 }
-.navbar ul.navbar-nav li .nav-link {
+.navbar ul.navbar-nav .cart-total-price {
   color: white !important;
 }
 
