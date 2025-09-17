@@ -13,8 +13,8 @@ header.sticky-menu {
 }
 
 @media (max-width: 548px) {
-    body main {
-        overflow-x: visible !important;
+    body header {
+        background: #31503cde !important;
     }
 }
 
