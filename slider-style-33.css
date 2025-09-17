@@ -113,6 +113,7 @@ color: #aaa !important;
   background-color: var(--ecosoap-green-color) !important;
   color: white !important;
   border-bottom: 1px solid #ffffff1a;
+  position: relative;
 }
 .footer-top h5 {
   color: white;
@@ -160,6 +161,10 @@ footer .footer-text p {
 .scroll-top {
   border: none !important;
   background-color: var(--ecosoap-theme-color) !important;
+  color: #fff !important;
+}
+.wishlist-area .table thead th {
+  background-color: var(--ecosoap-green-color) !important;
   color: #fff !important;
 }
 
