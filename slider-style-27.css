@@ -34,7 +34,9 @@ color: #aaa !important;
 .category__container .vstack a {
   color: var(--ecosoap-green-color);
 }
-
+.category__wrap {
+  transition: 0.3s;
+}
 .category__wrap:hover {
   background-color: var(--ecosoap-beige-color) !important;
 }
@@ -58,11 +60,10 @@ color: #aaa !important;
     font-weight: 300;
 }
 
-.card-features-area .card h6 {
+.core-features-area .card h6 {
   font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
-  color: var(--ecosoap-green-color);
 }
 
 .newsletter__wrap {
