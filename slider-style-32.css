@@ -130,11 +130,11 @@ footer .footer-text p {
 }
 
 .footer-social ul li.icon svg {
-  fill: #aaa;
+  fill: #aaa !important;
 }
 
 .footer-social ul li.icon:hover svg {
-  fill: var(--ecosoap-theme-color);
+  fill: var(--ecosoap-theme-color) !important;
 }
 
 .copyright-wrap {
