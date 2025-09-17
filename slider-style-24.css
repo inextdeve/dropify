@@ -1,6 +1,7 @@
 body {
   --ecosoap-theme-color: #ef5958;
   --ecosoap-green-color: #31503c;
+  --bs-heading-color: #31503c;
 }
 header {
   background: none !important;
@@ -96,6 +97,18 @@ footer .footer-text p {
   color: #aaa !important;
 }
 
+.footer-social ul li.icon {
+  background: none !important;
+}
+
+.footer-social ul li.icon svg {
+  fill: #aaa;
+}
+
+.footer-social ul li.icon:hover svg {
+  fill: var(--ecosoap-theme-color);
+}
+
 .copyright-wrap {
   background-color: var(--ecosoap-green-color) !important;
   color: white !important;
@@ -103,11 +116,17 @@ footer .footer-text p {
 
 .copyright-wrap .copyright-text p {
   background: none !important;
-  color: white !important;
+  color: #aaa !important;
 }
 
 #added-elem {
   display: none !important;
+}
+
+.scroll-top {
+  border: none !important;
+  background-color: var(--ecosoap-theme-color) !important;
+  color: #fff !important;
 }
 
 /* CAROUSEL */
