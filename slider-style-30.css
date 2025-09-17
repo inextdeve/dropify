@@ -12,11 +12,11 @@ header.sticky-menu {
   background: #31503cde !important;
 }
 
-/* .header-wrapper {
-  background-image: url(https://i.ibb.co/VYvh1mcr/h1-bg-slide.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
+@media (max-width: 548px) {
+    body main {
+        overflow-x: visible !important;
+    }
+}
 
 header .header__link {
   background: none !important;
