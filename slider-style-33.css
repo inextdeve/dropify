@@ -41,6 +41,11 @@ color: #aaa !important;
   background-color: var(--ecosoap-beige-color) !important;
 }
 
+.slider-sup-deals .product-card,
+.slider-sup-deals .product-card .card-body {
+  background-color: var(--ecosoap-beige-color) !important;
+}
+
 .core-features-area {
   background: #f2e5d6;
   margin: 0 !important;
@@ -131,6 +136,7 @@ footer .footer-text p {
 
 .footer-social ul li.icon svg {
   fill: #aaa !important;
+  transition: all 0.3s !important;
 }
 
 .footer-social ul li.icon:hover svg {
