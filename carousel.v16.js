@@ -109,5 +109,7 @@ if (header) {
   resetTimeAnimation();
 } else {
   // mean carousel not exit not in the main m=page
-  document.getElementById("sticky-header").style.background = "#31503cde";
+  document
+    .getElementById("sticky-header")
+    .style.setProperty("background", "#31503cde", "important");
 }
