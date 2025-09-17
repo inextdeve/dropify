@@ -71,7 +71,10 @@ color: #aaa !important;
   border-bottom: 1px solid #ffffff1a;
   position: relative;
 }
-
+.newsletter__wrap h6 {
+  color: #fff;
+}
+.footer-top::before,
 .newsletter__wrap::before {
   content: "";
   display: block;
@@ -105,6 +108,10 @@ color: #aaa !important;
   background-color: var(--ecosoap-green-color) !important;
   color: white !important;
   border-bottom: 1px solid #ffffff1a;
+}
+.footer-top h5 {
+  color: white;
+  position: relative;
 }
 
 footer .fw-link ul li a {
